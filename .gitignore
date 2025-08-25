@@ -1,0 +1,38 @@
+# Ignore the final assembled book output
+book.md
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build archives
+*.zip
+
+# Python cache (if any tools/scripts are used)
+__pycache__/
+*.py[cod]
+
+# Node modules (if you add tooling later)
+node_modules/
+
+# Markdown build tools (optional, if using something like mdbook)
+output/
+
+# Output files
+output/
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store

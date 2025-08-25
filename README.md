@@ -1,3 +1,5 @@
-# logbook
-Document learning process in markdown. 
-Then, look at the individual chapters or generate a full PDF book for review.
+# Logbook
+
+Minimal documentation notes during learning processes, using markdown.
+
+Then, look at individual chapters or generate full PDF book for review.

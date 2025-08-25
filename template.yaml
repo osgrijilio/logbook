@@ -1,0 +1,12 @@
+pdf-engine: xelatex
+toc: true
+number-sections: true
+metadata:
+  title: "Learning Notes"
+  author: "Leonel Fonseca"
+  date: "August 2025"
+variables:
+  geometry: margin=1in
+  header-includes: |
+    \input{header.tex}
+  mainfont: Arial
