@@ -5,7 +5,7 @@ import shutil
 
 CHAPTERS_DIR = Path("chapters")
 TEMPLATE_FILE = Path("template.yaml")
-CHAPTER_PATTERN = re.compile(r"^c_(\d+)$", re.IGNORECASE)
+CHAPTER_PATTERN = re.compile(r"^c_(\d+)(_(.*))?$", re.IGNORECASE)
 OUTPUT_DIR = Path("output")
 OUTPUT_MD = OUTPUT_DIR / "full_doc.md"
 OUTPUT_PDF = OUTPUT_DIR / "full_doc.pdf"
