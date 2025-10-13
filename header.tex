@@ -1,6 +1,27 @@
 \usepackage{titlesec}
+\usepackage{needspace}
+
+% Prevent orphaned headers
+\clubpenalty=10000
+\widowpenalty=10000
+
+% Keep headers with following content
 \titleformat{\section}
-  {\normalfont\Large\bfseries}
+  {\clearpage\normalfont\Large\bfseries}
   {Chapter \thesection:}
+  {1em}
+  {}
+
+% Keep subsection headers with content (need at least 3 lines after)
+\titleformat{\subsection}
+  {\needspace{3\baselineskip}\normalfont\large\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+
+% Keep subsubsection headers with content (need at least 2 lines after)
+\titleformat{\subsubsection}
+  {\needspace{2\baselineskip}\normalfont\normalsize\bfseries}
+  {\thesubsubsection}
   {1em}
   {}
