@@ -33,4 +33,5 @@ sudo tlmgr update --self
 sudo tlmgr install titlesec
 sudo tlmgr install xcolor
 sudo tlmgr install fancyhdr
+sudo tlmgr install needspace
 ```
