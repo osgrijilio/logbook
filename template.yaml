@@ -10,3 +10,5 @@ variables:
   header-includes: |
     \input{header.tex}
   mainfont: Arial
+from:
+  markdown+link_attributes
