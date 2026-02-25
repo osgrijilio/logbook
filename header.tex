@@ -4,24 +4,41 @@
 % Prevent orphaned headers
 \clubpenalty=10000
 \widowpenalty=10000
+\setcounter{secnumdepth}{0}
 
 % Keep headers with following content
 \titleformat{\section}
   {\clearpage\normalfont\Large\bfseries}
-  {Chapter \thesection:}
+  {}
   {1em}
   {}
 
 % Keep subsection headers with content (need at least 3 lines after)
 \titleformat{\subsection}
   {\needspace{3\baselineskip}\normalfont\large\bfseries}
-  {\thesubsection}
+  {}
   {1em}
   {}
 
 % Keep subsubsection headers with content (need at least 2 lines after)
 \titleformat{\subsubsection}
   {\needspace{2\baselineskip}\normalfont\normalsize\bfseries}
-  {\thesubsubsection}
+  {}
   {1em}
   {}
+
+% Paragraph-level headings map from #### in markdown and must not run into body text.
+\titleformat{\paragraph}[block]
+  {\needspace{2\baselineskip}\normalfont\normalsize\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\paragraph}{0pt}{1.2ex plus .3ex minus .2ex}{0.8ex}
+
+% Subparagraph-level headings map from ##### in markdown.
+\titleformat{\subparagraph}[block]
+  {\needspace{2\baselineskip}\normalfont\normalsize\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subparagraph}{0pt}{1.2ex plus .3ex minus .2ex}{0.8ex}

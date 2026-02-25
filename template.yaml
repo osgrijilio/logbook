@@ -2,9 +2,9 @@ pdf-engine: xelatex
 toc: true
 number-sections: true
 metadata:
-  title: "Learning Notes"
+  title: "Notes"
   author: "Leonel Fonseca"
-  date: "August 2025"
+  date: "2026"
 variables:
   geometry: margin=1in
   header-includes: |
