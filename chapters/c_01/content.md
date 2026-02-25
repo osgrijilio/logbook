@@ -37,14 +37,14 @@ Do
 PYTHONPATH=src pytest
 ```
 
-|Command| What it does
-|--------|--------------
-|pytest -v | Verbose output (shows test names, status)
-|pytest -q | Quiet output (shows just test dots or status)
-|pytest -v --tb=short | Verbose with short tracebacks
-|pytest -v -rs | Shows reason for skips/failures (not needed for passed)
-|pytest -v --disable-warnings | Hides warnings (but still shows passed tests)
-|pytest -s -v | Shows print statements inside tests
+| Command                      | What it does                                            |
+| ---------------------------- | ------------------------------------------------------- |
+| pytest -v                    | Verbose output (shows test names, status)               |
+| pytest -q                    | Quiet output (shows just test dots or status)           |
+| pytest -v --tb=short         | Verbose with short tracebacks                           |
+| pytest -v -rs                | Shows reason for skips/failures (not needed for passed) |
+| pytest -v --disable-warnings | Hides warnings (but still shows passed tests)           |
+| pytest -s -v                 | Shows print statements inside tests                     |
 
 For tracebacks (the --tb argument), you can choose one of: auto, long, short, no, line, native.
 
