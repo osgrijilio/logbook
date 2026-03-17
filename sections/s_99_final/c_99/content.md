@@ -1,5 +1,5 @@
 # Final chapter
 
-![Black square](resources/black_square.png){ width=75% style="display:block;margin:0 auto;" }
+![Black square](resources/black_square.png){ width=10% style="display:block;margin:0 auto;" }
 
 End.
